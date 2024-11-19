@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 137rem;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 114rem;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 96rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 72rem;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 54rem;
+    }
+}
+
+
+@media (max-width: 470px) {
+    .container {
+        max-width: 44rem;
+    }
+
+}
